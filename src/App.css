@@ -1,0 +1,168 @@
+.App {
+  
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+.navbar {
+  background: transparent;
+  color: white;
+  height: 60px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 1140px;
+}
+
+.navbar-logo {
+
+}
+
+.nav-list {
+display: flex;
+align-items: center;
+list-style: none;
+width: 100%;
+flex-wrap: nowrap;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 300;
+}
+
+.list {
+  position: fixed;
+  flex: 0 0 auto;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+}
+
+.nav-list .list:nth-child(1) {
+  top: 20px;
+  left: 30px;
+} 
+
+.nav-list .list:nth-child(2) {
+  top: 20px;
+  right: 1rem;
+} 
+
+.nav-list .list:nth-child(3) {
+  top: 90vh;
+  left: 30px;
+} 
+
+.nav-list .list:nth-child(4) {
+  top: 90vh;
+  right: 1rem;
+} 
+
+/* HEADER */
+
+.header {
+  background: transparent;
+}
+
+.header .container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.header .container h1 {
+  font-size: 3rem;
+  color: #fff;
+  padding: 0 3rem;
+}
+
+.header .container p {
+  color: #fff;
+  padding: 0 3rem;
+
+}
+
+.header img {
+  max-width: 400px;
+  padding: 0 1rem;
+
+}
+
+.boxes {
+  background: transparent;
+}
+
+.boxes img {
+  max-width: 400px;
+}
+
+.boxes .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+flex: 1;
+background: rgb(114, 176, 233);
+margin: 1rem 2rem;
+padding: 0 3rem;
+}
+
+.box p {
+  
+}
+
+.box_img img{
+  margin: 2rem 2rem ;
+  border-radius: 5px;
+}
+
+
+/* FOOTER */
+.l_footer {
+  background: 0 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: auto;
+  flex-flow: column wrap;
+  padding: 1rem 0;
+}
+
+.l_footer nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+  overflow: hidden;
+}
+.l_footer nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  width: 100%;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.l_footer nav ul li a{
+  font-size: 1.3rem;
+  font-weight: 200;
+  margin: 2rem 1rem;
+  color: #fff;
+  list-style-type: none;
+  transition: transform .3s ease;
+}
