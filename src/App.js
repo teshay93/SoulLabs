@@ -3,6 +3,7 @@ import { TiSocialInstagram } from "react-icons/ti";
 import { TiSocialFacebook } from "react-icons/ti";
 import { TiSocialYoutube } from "react-icons/ti";
 import { TiSocialTwitter } from "react-icons/ti";
+import pic from './assets/party.jpg'
 
 function App() {
   return (
@@ -10,36 +11,35 @@ function App() {
       <nav className="navbar">
         <div className="container">
           <ul className="nav-list">
-            <li className="list">Book</li>
-            <li className="list">Videos</li>
-            <li className="list">Shop</li>
-            <li className="list">Contact</li>
+            <li className="list"><a href="#">Book</a></li>
+            <li className="list"><a href="#">Videos</a></li>
+            <li className="list"><a href="#">Shop</a></li>
+            <li className="list"><a href="#">Contact</a></li>
           </ul>
         </div>
       </nav>
 
-      <header className="header">
+      <section className="header">
         <div className="container">
-          <div>
-          <h1>hello</h1>
-          {/* <p>lorem ipsum ridiculous text writing in the code experimenting and learning flexbocx css froom Traversy on yoputube. it is so muc  fun to be doing this
-          </p> */}
+          <div className="card">
+            <img src={pic}/>
+            <h1>John Ode</h1>
+            <p className="title"> jkdloflg rdg</p>
           </div>
         </div>
-      </header>
+      </section>
 
-      <footer className="l_footer">
-              <div className="l_region">
-                <nav className="social_footer">
-                  <ul>
-                    <li><a href="#"><TiSocialInstagram /></a></li>
-                    <li><a href="#"><TiSocialFacebook /></a></li>
-                    <li><a href="#"><TiSocialYoutube /></a></li>
-                    <li><a href="#"><TiSocialTwitter /></a></li>
-                  </ul>
-                </nav>
-              </div>
-          </footer>
+      <div className="l_footer">
+        <div className="social_footer">
+          <ul>
+            <li><a href="#"><TiSocialInstagram /></a></li>
+            <li><a href="#"><TiSocialFacebook /></a></li>
+            <li><a href="#"><TiSocialYoutube /></a></li>
+            <li><a href="#"><TiSocialTwitter /></a></li>
+          </ul>
+        </div>
+
+      </div>
     </div>
   );
 }
